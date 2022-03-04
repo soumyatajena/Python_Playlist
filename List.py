@@ -81,10 +81,10 @@ print(f"Cleared list: {integer_list}")
 # 10. Join - string method- joins the string on basis of the given original string
 
 str_list="!"
-new_str=str_list.join(['hi','my', 'name','is','Soumyata'])
+new_str=str_list.join(['hi','my', 'name','is','Soumyata']) # o/p : hi!my!name!is!Soumyata
 str_list=" "
-new_str=str_list.join(['hi','my', 'name','is','Soumyata'])
+new_str=str_list.join(['hi','my', 'name','is','Soumyata'])  # o/p : hi my name is Soumyata
 # or
-new_str=' '.join(['hi','my', 'name','is','Soumyata'])
+new_str=' '.join(['hi','my', 'name','is','Soumyata']) # o/p : hi my name is Soumyata
 print(new_str)
 

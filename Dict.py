@@ -55,7 +55,7 @@ print(True in dictionary.values()) # true
 # .items() grab the entire key-value pair and search within it
 print('is' in dictionary.items()) # false
 print('xg' in dictionary.items()) # false
-# .items() returns a tuple [(),(),()] as output
+# .items() returns a output [(),(),()] as TUPLE
 print(dictionary.items()) # dict_items([('a', [1, 2, 3]), ('b', 'Soumyata'), ('g', True), ('x', 'key is present')])
 
 new_dict= dictionary.copy()

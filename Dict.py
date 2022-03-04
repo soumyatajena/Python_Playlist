@@ -73,3 +73,4 @@ print(new_dict) # {'b': 'Soumyata', 'g': True}
 # Incase, key is not present, it creates the new key and add the value
 new_dict.update({'x':'Updated value added'})
 print(new_dict) # {'b': 'Soumyata', 'g': True, 'x': 'Updated value added'}
+

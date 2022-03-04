@@ -97,4 +97,6 @@ print(c) #3
 print(*other) # 4 Soumyata 6 7 8 9
 print(d) #0
 
-# None - 
+# None - special datatype in python - represents absence of value
+game_weapons=None
+print(game_weapons)

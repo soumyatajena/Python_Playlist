@@ -1,4 +1,4 @@
-# Unstructered Data type - [key,value] pair where key = string element
+# Unstructered(un-ordered) Data type - [key,value] pair where key = string element
 dictionary = {
     'a':[1,2,3],
     'b':"Soumyata",

@@ -1,5 +1,5 @@
 # Unstructered Data type - [key,value] pair where key = unique unhashable type i.e. has to be immutable type
-                                         # incase key = not unique - value get overriden with latest value
+                                         # incase key = if not unique - value get overriden with latest value
 
 dictionary = {
     'a':[1,2,3],

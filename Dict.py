@@ -1,4 +1,4 @@
-# Unstructered Data type - [key,value] pair where key = unique unhashable type i.e. has to be immutable type
+# Unstructered Data type - [key,value] pair where key = unique unhashable type i.e. has to be immutable type [string/tuple/numeric]
                                          # incase key = if not unique - value get overriden with latest value
 
 dictionary = {

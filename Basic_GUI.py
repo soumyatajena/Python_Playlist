@@ -12,10 +12,10 @@ picture=[
 
 for item in picture:
     for i in item:
-        if(i==0):
-            print(' ', end='')
+        if(i):# 0 : False and 1: True by default
+            print('*', end='') # to end the code in the same line
         else:
-            print('*', end='')
+            print(' ', end='')
     print()
 
 #    *   

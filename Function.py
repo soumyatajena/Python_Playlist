@@ -1,3 +1,10 @@
+# Function Scope :
+
+# 1- Start with Local
+# 2- Parent Local Scope
+# 3- Global Scope
+# 4- Built in Python functions
+
 # def - define function
 
 def say_hello():
@@ -7,7 +14,7 @@ def say_hello():
 say_hello()
 # Hello!
 
-#-----------------------------------------------------------
+# -----------------------------------------------------------
 
 # parameters
 
@@ -20,7 +27,7 @@ def say_hello(name, emoji):
 say_hello('Soumyata', ' 😊')
 # Hello Soumyata 😊
 
-#------------------------------------------------------------
+# ------------------------------------------------------------
 
 # Default Parameters
 
@@ -36,7 +43,7 @@ say_hello(emoji=' 😊', name='Soumyata')
 say_hello()
 # Hello Default Name 😎
 
-#-------------------- FUNC WITH RETURN TYPE ---------------
+# -------------------- FUNC WITH RETURN TYPE ---------------
 
 
 def sum(num1, num2):

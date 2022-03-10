@@ -1,7 +1,8 @@
+highest=0
 def highest_even(num_list):
-    highest=0
     for item in num_list:
-        if item%2==0 and item>highest:
+        global highest
+        if item%2==0 and item> highest:
             highest=item
     print(f'Highest even among {num_list} is {highest}')
 
@@ -21,4 +22,4 @@ def highest_even(num_list):
 
 print(highest_even(num_list=[11,10,56,9,1,-3]))
 
-# 56
+# 56 
